@@ -13155,7 +13155,11 @@ div#notebook {
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Photosensitization-of-CP1-by-Xan,-Delayed-fluorescence">Photosensitization of CP1 by Xan, Delayed fluorescence<a class="anchor-link" href="#Photosensitization-of-CP1-by-Xan,-Delayed-fluorescence">&#182;</a></h1>
+<h1 id="Photosensitization-of-CP1-by-Xan,-Delayed-fluorescence">Photosensitization of CP1 by Xan, Delayed fluorescence<a class="anchor-link" href="#Photosensitization-of-CP1-by-Xan,-Delayed-fluorescence">&#182;</a></h1><p>Beer–Lambert law</p>
+$$A(\lambda) = \varepsilon(\lambda)cl = -\log T(\lambda) =  -\log{\frac{I(\lambda)}{I_0(\lambda)}}$$<p>where $A(\lambda)$ is absorbance at wavelength $\lambda$, $\varepsilon(\lambda)$ is molar absorption coefficient of compound at wavelenth $\lambda$, $c$ is the concentration of that compound, $l$ is the length of cuvette, $T$ is a transmitance (the part of transmitted light), $I$ is intensity of transmitted light and $I_0$ is intensity of incident light. Beer–Lambert law is additive, so for $n$ absorbing species in the same measured solution, resulting absorbance will be</p>
+$$A(\lambda) = l\sum_{i=1}^n c_i\varepsilon_i(\lambda)$$<p>For time dependent measurement, where concentrations of species change in time, absorbance becomes dependent on time</p>
+$$A(\lambda, t) = l\sum_{i=1}^n c_i(t)\varepsilon_i(\lambda)$$<p>From transient measurement (or any spectroscopic kinetic measurement), we usually obtain a matrix $\overset{t\ \times\ w}{\mathbf{A}}$, where $t$ is number of measured times and $w$ is number of measured wavelengths. We can look at $\mathbf A$ as a column vector of dimension $t$. Then, it represents measured spectra for different times, thus, time evolution.</p>
+
 </div>
 </div>
 </div>
